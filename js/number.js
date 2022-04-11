@@ -64,7 +64,7 @@ function finalizar(){
         res.innerHTML += `<p class = "text-center">Foram adicionados ${tot} item na lista.</p>`;
         res.innerHTML += `<p class = "text-center">  Maior valor encontrado na lista ${maior}. </p>`;
         res.innerHTML += `<p class = "text-center"> Menor valor encontrado na lista ${menor}. </p>`;
-        res.innerHTML += `<p class = "text-center"> Somando todos os valores, temos ${soma}. </p>`;
-        res.innerHTML += `<p class = "text-center"> Média de todos os valores, temos ${media}. </p>`;
+        res.innerHTML += `<p class = "text-center"> Somando todos os valores, temos ${soma.toFixed(2)}. </p>`;
+        res.innerHTML += `<p class = "text-center"> Média de todos os valores, temos ${media.toFixed(2)}. </p>`;
     }
 }
