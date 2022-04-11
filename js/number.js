@@ -35,6 +35,7 @@ function adicionar(){
         res.innerHTML = ''
     }
     valor.value = '';
+    res.innerHTML = '';
     valor.focus();
    
 }
